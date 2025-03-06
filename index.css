@@ -1,3 +1,20 @@
-p {
-color: blue;
+.circle {
+  wight: 100px;
+  height: 100px;
+  animation: color 2s infinate alternate ease-in-out,
+  Move 4s infinate alternate ease-in-out;
+    
+}
+@keyframes Color {
+  0% { background-color: blue; }
+  50% { background-color: red }
+  100% { background-color: blue }
+}
+@keyframes Move {
+  0% {
+    left: 0;
+     }
+  100% { 
+    left 500px;
+  }
 }
