@@ -1,7 +1,8 @@
 .circle {
   wight: 100px;
   height: 100px;
-  animation: color 2s infinate alternate ease-in-out,
+  background-color: blue;
+  animation: Color 2s infinate alternate ease-in-out,
   Move 4s infinate alternate ease-in-out;
     
 }
